@@ -1,4 +1,10 @@
 <?php
+/**
+ * @license GNU Public License
+ * @copyright Copyright (c) Vladimir Kuprienko
+ * @link https://github.com/black-lamp/yii2-seo-breadcrumbs
+ */
+
 namespace bl\seo;
 
 use yii\base\InvalidConfigException;
@@ -7,8 +13,7 @@ use yii\helpers\Html;
 use yii\widgets\Breadcrumbs;
 
 /**
- * This widget just extend default Breadcrumbs widget.
- * It adds SEO attributes to HTML.
+ * Widget provides SEO schema for Breadcrumbs widget
  *
  * @property array $options
  * @property $seoOptions
@@ -24,27 +29,26 @@ class SeoBreadcrumbs extends Breadcrumbs
         'itemscope' => true,
         'itemtype' => 'http://schema.org/BreadcrumbList'
     ];
-
     /**
      * @inheritdoc
      */
-    public $itemTemplate = "<li itemprop=\"itemListElement\" itemscope itemtype=\"http://schema.org/ListItem\">
-                                {link}
-                                <meta itemprop=\"position\" content=\"{position}\">
-                            </li>\n";
-
+    public $itemTemplate = "<li itemprop=\"itemListElement\" itemscope itemtype=\"http://schema.org/ListItem\">\n"
+                                . "{link}\n"
+                                . "<meta itemprop=\"position\" content=\"{position}\">\n"
+                            . "</li>\n";
     /**
      * @inheritdoc
      */
-    public $activeItemTemplate = "<li class=\"active\" itemprop=\"itemListElement\" itemscope itemtype=\"http://schema.org/ListItem\">
-                                    {link}
-                                    <meta itemprop=\"position\" content=\"{position}\">
-                                </li>\n";
+    public $activeItemTemplate = "<li class=\"active\" itemprop=\"itemListElement\" itemscope itemtype=\"http://schema.org/ListItem\">\n"
+                                    . "{link}\n"
+                                    . "<meta itemprop=\"position\" content=\"{position}\">\n"
+                                . "</li>\n";
 
     /**
      * @var integer
      */
     protected $_position = 1;
+
 
     /**
      * @inheritdoc
