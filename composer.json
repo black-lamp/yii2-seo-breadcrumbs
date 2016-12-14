@@ -1,0 +1,32 @@
+{
+  "name": "black-lamp/yii2-seo-breadcrumbs",
+  "description": "Widget with SEO attributes for breadcrumbs",
+  "keywords": ["yii2", "widget", "seo", "breadcrumbs"],
+  "type": "yii2-extension",
+  "license": "GNU Public License",
+  "support": {
+    "source": "https://github.com/black-lamp/yii2-seo-breadcrumbs",
+    "issues": "https://github.com/black-lamp/yii2-seo-breadcrumbs/issues"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": ">=2.0.4"
+  },
+  "authors": [
+    {
+      "name": "Vladimir Kuprienko",
+      "email": "vldmr.kuprienko@gmail.com",
+      "role": "Creator of extension"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "bl\\seo\\": "src"
+    }
+  }
+}
