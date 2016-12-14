@@ -1,6 +1,6 @@
 {
   "name": "black-lamp/yii2-seo-breadcrumbs",
-  "description": "Widget with SEO attributes for breadcrumbs",
+  "description": "Widget provides SEO schema for Breadcrumbs widget in Yii2 Framework",
   "keywords": ["yii2", "widget", "seo", "breadcrumbs"],
   "type": "yii2-extension",
   "license": "GNU Public License",
@@ -16,6 +16,11 @@
   ],
   "require": {
     "yiisoft/yii2": ">=2.0.4"
+  },
+  "require-dev": {
+    "codeception/codeception": "*",
+    "codeception/verify": "*",
+    "codeception/specify": "*"
   },
   "authors": [
     {

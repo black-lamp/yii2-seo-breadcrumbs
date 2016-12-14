@@ -1,10 +1,10 @@
 SEO breadcrumbs widget for Yii2
 ===============================
-Widget with SEO attributes for breadcrumbs
+Widget provides [SEO schema](http://schema.org/BreadcrumbList) for Breadcrumbs widget in Yii2 Framework
 
 Installation
 ------------
-#### Run command
+Run command
 ```
 composer require black-lamp/yii2-seo-breadcrumbs
 ```
@@ -16,13 +16,14 @@ to the require section of your composer.json.
 
 Using
 -----
+Example of using
+
 > layout.php
 ```php
 <?= \bl\seo\SeoBreadcrumbs::widget([
     'links' => isset($this->params['breadcrumbs']) ? $this->params['breadcrumbs'] : [],
 ]) ?>
 ```
-
 
 > view_file.php
 ```php
