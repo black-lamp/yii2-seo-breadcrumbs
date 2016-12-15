@@ -1,7 +1,10 @@
 <?php
+error_reporting(-1);
+
 defined('YII_DEBUG') or define('YII_DEBUG', true);
+defined('YII_ENABLE_ERROR_HANDLER') or define('YII_ENABLE_ERROR_HANDLER', false);
 defined('YII_ENV') or define('YII_ENV', 'test');
-defined('VENDOR_DIR') or define('VENDOR_DIR', __DIR__ . '/../../..');
+defined('VENDOR_DIR') or define('VENDOR_DIR', __DIR__ . implode(DIRECTORY_SEPARATOR, ['', '..', '..', '..']));
 
 require_once(VENDOR_DIR . '/autoload.php');
 require_once(VENDOR_DIR . '/yiisoft/yii2/Yii.php');
