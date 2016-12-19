@@ -3,7 +3,7 @@
   "description": "Widget provides SEO schema for Breadcrumbs widget in Yii2 Framework",
   "keywords": ["yii2", "widget", "seo", "breadcrumbs"],
   "type": "yii2-extension",
-  "license": "GNU Public License",
+  "license": "BSD 3-Clause License",
   "support": {
     "source": "https://github.com/black-lamp/yii2-seo-breadcrumbs",
     "issues": "https://github.com/black-lamp/yii2-seo-breadcrumbs/issues"
