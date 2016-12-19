@@ -1,6 +1,11 @@
 black-lamp/yii2-seo-breadcrumbs commits history
 ------------------------------------------
 
+## [1.2.0] - 2016-12-19
+
+- Changed license
+- Fixed tests
+
 ## [1.1.0] - 2016-12-15
 
 - Added tests
