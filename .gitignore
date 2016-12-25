@@ -1,3 +1,5 @@
 # Codeception
 codecept.phar
-tests/_output/*
+
+# composer vendor dir
+/vendor

@@ -2,6 +2,7 @@ SEO breadcrumbs widget for Yii2
 ===============================
 Widget provides [SEO schema](http://schema.org/BreadcrumbList) for Breadcrumbs widget in Yii2 Framework
 
+[![Build Status](https://travis-ci.org/black-lamp/yii2-seo-breadcrumbs.svg?branch=master)](https://travis-ci.org/black-lamp/yii2-seo-breadcrumbs)
 [![Latest Stable Version](https://poser.pugx.org/black-lamp/yii2-seo-breadcrumbs/version)](https://packagist.org/packages/black-lamp/yii2-seo-breadcrumbs)
 [![Latest Unstable Version](https://poser.pugx.org/black-lamp/yii2-seo-breadcrumbs/v/unstable)](//packagist.org/packages/black-lamp/yii2-seo-breadcrumbs)
 [![License](https://poser.pugx.org/black-lamp/yii2-seo-breadcrumbs/license)](https://packagist.org/packages/black-lamp/yii2-seo-breadcrumbs)
