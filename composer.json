@@ -3,7 +3,7 @@
   "description": "Widget provides SEO schema for Breadcrumbs widget in Yii2 Framework",
   "keywords": ["yii2", "widget", "seo", "breadcrumbs"],
   "type": "yii2-extension",
-  "license": "BSD 3-Clause License",
+  "license": "BSD-3-Clause",
   "support": {
     "source": "https://github.com/black-lamp/yii2-seo-breadcrumbs",
     "issues": "https://github.com/black-lamp/yii2-seo-breadcrumbs/issues"
@@ -15,7 +15,7 @@
     }
   ],
   "require": {
-    "yiisoft/yii2": ">=2.0.4"
+    "yiisoft/yii2": "^2.0.4"
   },
   "require-dev": {
     "codeception/codeception": "*",
@@ -26,7 +26,7 @@
     {
       "name": "Vladimir Kuprienko",
       "email": "vldmr.kuprienko@gmail.com",
-      "role": "Creator of extension"
+      "role": "lead"
     }
   ],
   "autoload": {
