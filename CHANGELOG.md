@@ -1,6 +1,10 @@
 black-lamp/yii2-seo-breadcrumbs commits history
 ------------------------------------------
 
+## [Under development]
+
+- Changed minimum PHP version
+
 ## [1.2.0] - 2016-12-19
 
 - Changed license
