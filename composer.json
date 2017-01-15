@@ -1,7 +1,7 @@
 {
   "name": "black-lamp/yii2-seo-breadcrumbs",
   "description": "Widget provides SEO schema for Breadcrumbs widget in Yii2 Framework",
-  "keywords": ["yii2", "widget", "seo", "breadcrumbs"],
+  "keywords": ["yii2", "widget", "seo", "schema", "breadcrumbs"],
   "type": "yii2-extension",
   "license": "BSD-3-Clause",
   "support": {
