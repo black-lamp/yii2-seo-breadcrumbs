@@ -26,4 +26,6 @@ install:
 before_script:
   - vendor/bin/codecept build
 
-script: vendor/bin/codecept run
+script:
+  - composer validate --no-check-lock
+  - vendor/bin/codecept run
