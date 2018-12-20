@@ -84,8 +84,8 @@ class SeoBreadcrumbs extends Breadcrumbs
             unset($options['template'], $options['label'], $options['url']);
 
             $linkSeoOptions = [
-                'itemscope' => true,
-                'itemtype' => 'http://schema.org/Thing',
+                /*'itemscope' => true,
+                'itemtype' => 'http://schema.org/Thing',*/
                 'itemprop' => 'item'
             ];
             $options = array_merge($options, $linkSeoOptions);
